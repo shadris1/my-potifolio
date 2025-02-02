@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .parent{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: brown;
+      padding: 20px;
+
+    }
+
+    .image{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+    .image img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    .children{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      gap: 20px
+      
+    }
+    .children button{
+      width: 150px;
+      height: 50px;
+      background-color: green;
+      color: white;
+      border-radius: 30px;
+      cursor: pointer;
+      border-color: white;
+      
+    }
+    .name{
+      font-weight: bold;
+      font-size: 20px;
+      text-transform: uppercase;
+      color: white;
+    }
+    nav ul{
+      background-color: black;
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: row;
+      list-style: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 150px;
+      padding-left: 150px;
+    }
+    nav ul p {
+      margin-right: 20px;
+      color: white;
+      font-size: 20px;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a{
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    .logo {
+      width: 10px;
+      height: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="#project">experience</a></li>
+        <li><a href="#project">project</a></li>
+        <li><a href="#project">contact</a></li>
+      </ul>
+    </nav>
+    <!-- <nav>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav> -->
+  </header>
+  <section>
+    <section id="about" class="parent">
+      <div class="image">
+        <img src="./assets/about-pic.png" alt="">
+      </div>
+      <div>
+        <h2>Hello</h2>
+        <h2> <span class="name">MUHUMUZA</span> jean pierre</h2>
+        <h2>FULL STACK</h2>
+        <div class="children">
+          <button>Download</button>
+          <button>contact</button>
+        </div>
+        <div>
+
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+
+    </section>
+    <section id="project">
+
+    </section>
+    <section></section>
+    <section></section>
+  </section>
+  <footer></footer>
+</body>
+</html>
